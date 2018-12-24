@@ -30,7 +30,7 @@ class DefaultHeader extends Component {
         <Nav className="ml-auto" navbar>
           <AppHeaderDropdown direction="down">
             <DropdownToggle nav>
-              <img src={'../../assets/img/avatars/8.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com" />
+              <img src={'../../assets/img/avatars/1.jpg'} className="img-avatar" alt="admin@react.com" />
             </DropdownToggle>
             <DropdownMenu right style={{ right: 'auto' }}>
               <DropdownItem><i className="fa fa-user"></i> Profile</DropdownItem>
@@ -38,8 +38,6 @@ class DefaultHeader extends Component {
             </DropdownMenu>
           </AppHeaderDropdown>
         </Nav>
-
-        {/*<AppAsideToggler className="d-lg-none" mobile />*/}
       </React.Fragment>
     );
   }
